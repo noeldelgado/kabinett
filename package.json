@@ -1,0 +1,23 @@
+{
+  "name": "kabinett",
+  "version": "0.0.1",
+  "description": "CSS Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeldelgado/kabinett.git"
+  },
+  "keywords": [
+    "css",
+    "toolkit"
+  ],
+  "author": "Noel Delgado <auhcsei@gmail.com> (http://pixelia.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noeldelgado/kabinett/issues"
+  },
+  "homepage": "https://github.com/noeldelgado/kabinett#readme"
+}
