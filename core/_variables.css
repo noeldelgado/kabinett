@@ -1,0 +1,56 @@
+/**
+  Kabinett – Module Core Variables
+*/
+
+:root {
+  --root-font-family: "Avenir Next", "Proxima Nova", sans-serif;
+  --root-font-monospace-family: "Ubuntu Mono", "Source Code Pro", Consolas, monospace;
+  --root-font-size: 14px;
+  --root-line-height: 1.618;
+  --root-text-color: #000;
+  --root-background-color: #fff;
+  --root-heading-color: inherit;
+
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-primary: #0074D9;
+  --color-secondary: #8899a6;
+
+  --color-danger: #e74c3c;
+  --color-info: #3498db;
+  --color-success: #2ecc71;
+  --color-warning: #f1c40f;
+
+  /* elements */
+  /* buttons */
+  --btn-default-font-size: calc(var(--root-font-size) - 2);
+  --btn-default-height: 28px;
+  --btn-default-radius: 3px;
+  /* sm */
+  --btn-sm-font-size: calc(var(--btn-default-font-size) - 1);
+  --btn-sm-height: 22px;
+  --btn-sm-radius: var(--btn-default-radius);
+  /* md */
+  --btn-md-font-size: var(--btn-default-font-size);
+  --btn-md-height: 32px;
+  --btn-md-radius: calc(var(--btn-default-radius) + 1);
+  /* lg */
+  --btn-lg-font-size: calc(var(--btn-md-font-size) + 2);
+  --btn-lg-height: 38px;
+  --btn-lg-radius: calc(var(--btn-md-radius) + 1);
+  /* xl */
+  --btn-xl-font-size: calc(var(--btn-lg-font-size) + 1);
+  --btn-xl-height: 44px;
+  --btn-xl-radius: calc(var(--btn-lg-radius) + 1);
+
+  /* elements tooltip */
+  --tooltip-font-size: 1rem;
+  --tooltip-radius: 3px;
+  --tooltip-arrow-size: 5px;
+
+  /* elements checkbox */
+  --checkbox-size: 14px;
+
+  /* elements radio */
+  --radio-size: var(--checkbox-size);
+}
